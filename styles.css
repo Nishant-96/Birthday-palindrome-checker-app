@@ -1,0 +1,50 @@
+.container{
+    max-width: 50%;
+    text-align: center;
+    background-color: #1F2937;
+    color: cyan;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    font-size: 23px;
+}
+.description{
+    font-size: 15px;
+    color: white;
+}
+
+label{
+    margin-bottom: 0.5rem;
+    margin-top:0.5rem;
+    margin-right:6rem;
+    margin-left:6rem;
+    text-align:center;
+    padding:0.5rem;
+    border-radius: 0.4rem;
+    color: cyan;
+}
+
+
+input{
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: block;
+}
+
+button{
+    display: block;
+    margin-top:1rem;
+    margin-left:10rem;
+    margin-right:10rem;
+    padding: 0.5rem;
+    background: transparent;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 0.8rem;
+    color: cyan;
+    border-color: cyan;
+}
