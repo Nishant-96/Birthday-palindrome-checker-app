@@ -10,13 +10,16 @@
 <body>
     <div class="container">
         <h1 class="heading">Is Your Birthdate a Palindrome ?</h1>
-        <p class="description">This app checks your birthdate in 4 formats yyyy-mm-dd, dd-mm-yyyy, mm-dd-yy, m-dd-yyyy for palindrome.</p>
-        <label for="birth-date">Birthdate:</label>
-        <input id="birth-date" type="date"/>
+        <p class="description">This app checks your birthdate in 6 formats yyyy-mm-dd, dd-mm-yyyy, mmddyyyy, ddmmyy, mmddyy and yymmdd format for palindrome.</p>
+        <label for="birth-date">Enter your Birthdate :</label>
+        <input id="birth-date" type="date" required/>
 
         <button id="check-button">Check</button>
-
+        <div id="output-box"></div>
+        <div id="error-box"></div>
     </div>
     
+
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
